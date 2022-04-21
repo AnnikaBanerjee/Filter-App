@@ -1,0 +1,23 @@
+.brn-success:hover {
+    background-color: rgb(255, 192, 203);
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: colours;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colours {
+    from {
+        box-shadow: 2px 2px 45px rgb(255, 90, 118);
+    }
+
+    to {
+        box-shadow: 2px 2px 45px rgb(84, 207, 255)
+    }
+}
